@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables — NEVER push this
+.env
+*/.env
+
+# React build output
+frontend/build/
+
+# OS files
+.DS_Store
+Thumbs.db
