@@ -3,6 +3,9 @@ import axios from "axios";
 
 const API_BASE = process.env.REACT_APP_API_URL || "";
 
+// Attach secret key to every request
+axios.defaults.headers.common["x-api-key"] = process.env.REACT_APP_API_SECRET;
+
 // ─── Initial State ────────────────────────────────────────────────────────────
 const initialState = {
   expenses: [],

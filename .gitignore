@@ -4,6 +4,7 @@ node_modules/
 
 # Environment variables — NEVER push this
 .env
+.env.locals
 */.env
 
 # React build output
