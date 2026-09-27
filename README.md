@@ -154,11 +154,3 @@ http://localhost:3000
 3. Use the **filter bar** to narrow by category or date range
 4. See charts and totals on the **"Dashboard"** tab
 
----
-
-## Resume Bullet Points (for reference)
-
-- Built a personal finance tracker to log, categorize, and visualize monthly expenses using React, Node.js, Express, and MongoDB
-- Integrated Recharts for interactive pie and bar charts; added filter by category and date range
-- Managed complex UI state across components using React Context API with useReducer
-- Designed and implemented a RESTful API with Express.js and Mongoose with full CRUD operations
